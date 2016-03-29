@@ -1,4 +1,4 @@
-# Introduction to Computer Graphics Assignment One
+# Introduction to Computer Graphics Assignment 1
 
 YOU MUST PROVIDE THE FOLLOWING IN SOME TYPE OF CONTAINER (tar,,zip, etc)
 - A README DESCRIBING WHAT YOU DID AND DID NOT DO, YOUR ENVIRONMENT, 
