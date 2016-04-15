@@ -1,0 +1,18 @@
+div, table {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 660px;
+  margin: 0 auto;
+}
+#winOnSwitch, #winNoSwitch{
+        color: green;
+      }
+      #lossOnSwitch, #lossNoSwitch {
+        color: red;
+      }
+      body {
+          font-size: 24px;
+          background-color: #F9F9F9;
+        }

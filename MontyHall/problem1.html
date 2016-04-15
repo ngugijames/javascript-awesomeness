@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Monty Hall simulation</title>
+    <link rel="stylesheet" type="text/css" href="problem1.css">
+</head>
+
+<body id="body">
+    <h1 align="center">Monty Hall Simulation</h1>
+
+    <table align="center">
+        <tbody>
+            <tr>
+                <div id="myCanvas" width="6800" height="400">
+                    <img height="300px" width="200px" id="door1" class="door">
+                    <img height="300px" width="200px" id="door2" class="door">
+                    <img height="300px" width="200px" id="door3" class="door">
+                </div>
+            </tr>
+            </tr>
+        </tbody>
+    </table>
+
+    <p align="center"><span id="status"></span></p>
+
+    <table>
+    	<tr>
+                <tr>
+                	<td></td>
+                	<td>Wins</td>
+                	<td>Losses</td>
+                </tr>
+                <tr>
+                	<td>Switch</td>
+                	<td><span id="winOnSwitch"></span></td>
+                	<td><span id="lossOnSwitch"></span></td>
+                </tr>
+                <tr>
+                	<td>Not Switched</td>
+                	<td><span id="winNoSwitch"></span></td>
+                	<td><span id="lossNoSwitch"></span></td>
+                </tr>
+            </tr>
+    </table>
+</body>
+<script type="text/javascript" src="problem1.js"></script>
+</html>
